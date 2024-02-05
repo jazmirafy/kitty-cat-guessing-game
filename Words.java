@@ -2,8 +2,11 @@ import java.lang.Math;
 
 public class Words
 {
+  //create method that picks a word from the string array of words
   public static String getWord() {
     int wordsListSize = words.length;
+    
+    //this will generate a random integer (less than our word array size) that will be the index for the random word we choose 
     int randIndex = (int)(Math.random() * wordsListSize);
     return words[randIndex];
   }
