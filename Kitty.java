@@ -23,7 +23,7 @@ public class Kitty
         }
         
         //introduce the game
-        System.out.println("=^◕⩊◕^=");
+        //System.out.println("=^◕⩊◕^=");
         System.out.println("you are a kitty and you have 9 lives. MEOW! guess all the letters in the secret word correctly or you will DIE!");
         while (true)
         {
@@ -39,7 +39,7 @@ public class Kitty
 
                 if(answer.charAt(i) == letter)
                 {
-                    System.out.println("—ฅ/ᐠ. ̫ .ᐟ\ฅ—");
+                    //System.out.println("—ฅ/ᐠ. ̫ .ᐟ\ฅ—");
                     System.out.println("MEOW! the secret word has the letter " + letter + " in it at index " + i);
                     revealed[i] = true;
                     curLetterFound = true;
@@ -50,20 +50,20 @@ public class Kitty
             if(curLetterFound == false)
             {
                 lives--;
-                System.out.println("(ᓀ‸ᓂ)");
+                //System.out.println("(ᓀ‸ᓂ)");
                 System.out.println("MEOW! you lost one of your kitty lives! you now have " + lives + " live(s).");
             }
             
             //if they run out of lives end the game/leave the while loop
             if(lives == 0)
             {
-                System.out.println("(づ ᴗ _ᴗ)づ♡");
+                //System.out.println("(づ ᴗ _ᴗ)づ♡");
                 System.out.println("the secret word was " + answer + ".");
                 System.out.println("MEOW! you have lost all of your kitty lives. you are now DEAD.");
                 break;
             }
 
-            //show the letters they have guessed correctly so far and print a ❤︎ for the missing letters
+            //show the letters they have guessed correctly so far and print a _ for the missing letters
             for(int i = 0; i< answer.length(); i++)
             {
                 if(revealed[i] == true)
@@ -72,7 +72,7 @@ public class Kitty
                 }
                 else
                 {
-                    System.out.print("❤︎ ");
+                    System.out.print("_ ");
                 }
             }
             
@@ -91,7 +91,7 @@ public class Kitty
             if(allLettersFound == true)
             {
                 System.out.println();
-                System.out.println("≽^•⩊•^≼ ₊˚⊹♡");
+                //System.out.println("≽^•⩊•^≼ ₊˚⊹♡");
                 System.out.println("the secret word was " + answer + ".");
                 System.out.println("MEOW! you win kitty! <33");
                 break;
