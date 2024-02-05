@@ -39,7 +39,7 @@ public class Kitty
 
                 if(answer.charAt(i) == letter)
                 {
-                    System.out.println("—ฅ/ᐠ. ̫ .ᐟ\ฅ —");
+                    System.out.println("—ฅ/ᐠ. ̫ .ᐟ\ฅ—");
                     System.out.println("MEOW! the secret word has the letter " + letter + " in it at index " + i);
                     revealed[i] = true;
                     curLetterFound = true;
