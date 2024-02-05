@@ -37,6 +37,7 @@ public class Kitty
             }
             if(lives == 0)
             {
+                System.out.println("the secret word was " + answer + ".");
                 System.out.println("MEOW! you have lost all of your kitty lives. you are now DEAD.");
                 break;
             }
@@ -62,6 +63,7 @@ public class Kitty
             if(allLettersFound == true)
             {
                 System.out.println();
+                System.out.println("the secret word was " + answer + ".");
                 System.out.println("MEOW! you win kitty! <33");
                 break;
             }
