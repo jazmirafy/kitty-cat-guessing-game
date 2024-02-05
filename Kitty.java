@@ -24,7 +24,7 @@ public class Kitty
         
         //introduce the game
         //System.out.println("=^◕⩊◕^=");
-        System.out.println("you are a kitty and you have 9 lives.")
+        System.out.println("you are a kitty and you have 9 lives.");
         System.out.println( "<3 <3 <3 <3 <3 <3 <3 <3 <3");
         System.out.println("MEOW! guess all the letters in the secret word correctly or you will DIE!");
         while (true)
