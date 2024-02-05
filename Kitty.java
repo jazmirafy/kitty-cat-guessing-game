@@ -12,7 +12,7 @@ public class Kitty
         
         //give the player 9 lives
         int lives = 9;
-        
+
         /*create a boolean array that is the length of the secret word. all values are set to false for now, 
         but once the user guesses the letter correctly, the boolean value with the same index as the correctly guessed 
         letter in the secret word changes to true so we can keep track of the correctly guessed letters.*/
@@ -26,7 +26,7 @@ public class Kitty
         //System.out.println("=^◕⩊◕^=");
         System.out.println("you are a kitty and you have 9 lives.");
         System.out.println( "<3 <3 <3 <3 <3 <3 <3 <3 <3");
-        System.out.println("MEOW! guess all the letters in the secret word correctly or you will DIE!");
+        System.out.println("MEOW! guess all the letters in the secret word correctly or you will DIE! O.O");
         while (true)
         {
             
@@ -61,7 +61,7 @@ public class Kitty
                 {
                 System.out.println("MEOW! you lost one of your kitty lives! you now have " + lives + " life left.");
                 }
-                //display a heart for every live they have
+                //display a heart for every life they have
                 for(int i = 0; i < lives; i++)
                 {
                     System.out.print("<3 ");
@@ -75,8 +75,10 @@ public class Kitty
             {
                 //System.out.println("(づ ᴗ _ᴗ)づ♡");
                 System.out.println("the secret word was " + answer + ".");
-                System.out.println("MEOW! you have lost all of your kitty lives. you are now DEAD.");
+                System.out.println("MEOW! you have lost all of your kitty lives. you are now DEAD. >_<");
                 break;
+
+                //this is under construction
                 /*let the user select if they want to play again or not. if they say yes generate a new secret word, reset the boolean array, then 
                 introduce the game again. if they say no, say bye and leave the while loop.
                 System.out.println("do you want to play again? press 'y' to start a new game or press 'n' to leave.");
@@ -131,8 +133,10 @@ public class Kitty
                     System.out.println();
                     //System.out.println("≽^•⩊•^≼ ₊˚⊹♡");
                     System.out.println("the secret word was " + answer + ".");
-                    System.out.println("MEOW! you win kitty! <33");
+                    System.out.println("MEOW! you win kitty! :D");
                     break;
+
+                    //this is under construction
                     /* let the user select if they want to play again or not. if they say yes generate a new secret word, reset the boolean array, then 
                     introduce the game again. if they say no, say bye and leave the while loop.
                     System.out.println("do you want to play again? press 'y' to start a new game or press 'n' to leave.");
