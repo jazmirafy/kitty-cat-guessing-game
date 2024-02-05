@@ -83,7 +83,7 @@ public class Kitty
                 }
             }
             
-            //if they've guessed all the letters, tell them they won!
+            //if they've guessed all the letters correctly, tell them they won! now leave the while loop
             if(allLettersFound == true)
             {
                 System.out.println();
