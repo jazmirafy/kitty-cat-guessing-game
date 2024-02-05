@@ -24,7 +24,9 @@ public class Kitty
         
         //introduce the game
         //System.out.println("=^◕⩊◕^=");
-        System.out.println("you are a kitty and you have 9 lives. MEOW! guess all the letters in the secret word correctly or you will DIE!");
+        System.out.println("you are a kitty and you have 9 lives.")
+        System.out.println( "<3 <3 <3 <3 <3 <3 <3 <3 <3");
+        System.out.println("MEOW! guess all the letters in the secret word correctly or you will DIE!");
         while (true)
         {
             
@@ -59,6 +61,13 @@ public class Kitty
                 {
                 System.out.println("MEOW! you lost one of your kitty lives! you now have " + lives + " life left.");
                 }
+                //display a heart for every live they have
+                for(int i = 0; i < lives; i++)
+                {
+                    System.out.print("<3 ");
+                }
+                System.out.println();
+                    
             }
             
             //if they run out of lives end the game
