@@ -104,7 +104,7 @@ public class Kitty
                 
                 /*let the user select if they want to play again or not. if they say yes generate a new secret word then 
                 introduce the game again. if they say no, say bye and leave the while loop. */
-                System.out.println("do you want to play again? press "y" to start a new game or press "n" to leave.");
+                System.out.println("do you want to play again? press 'y' to start a new game or press 'n' to leave.");
                 char newGame = keyboard.nextLine().charAt(0);
                 if(newGame == 'y' || newGame == 'Y')
                 {
