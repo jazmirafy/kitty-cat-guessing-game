@@ -51,7 +51,14 @@ public class Kitty
             {
                 lives--;
                 //System.out.println("(ᓀ‸ᓂ)");
-                System.out.println("MEOW! you lost one of your kitty lives! you now have " + lives + " live(s).");
+                if(lives > 1)
+                {
+                System.out.println("MEOW! you lost one of your kitty lives! you now have " + lives + " lives.");
+                }
+                if(lives == 1)
+                {
+                System.out.println("MEOW! you lost one of your kitty lives! you now have " + lives + " life left.");
+                }
             }
             
             //if they run out of lives end the game/leave the while loop
