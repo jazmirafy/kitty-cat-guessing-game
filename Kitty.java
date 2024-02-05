@@ -85,7 +85,7 @@ public class Kitty
                 }
                 else
                 {
-                    System.out.print("see you next time. MEEEOOOWWWWWWW");
+                    System.out.println("see you next time. MEEEOOOWWWWWWW");
                     break;
                 }
             }
@@ -141,12 +141,12 @@ public class Kitty
                     }
                     else
                     {
-                        System.out.print("see you next time. MEEEOOOWWWWWWW");
+                        System.out.println("see you next time. MEEEOOOWWWWWWW");
                         break;
                     }
                     
                 }
-                System.out.println();
+            
             }
         }
     }
