@@ -81,13 +81,13 @@ public class Kitty
                     {
                         revealed[i] = false;
                     }
-                    System.out.println("you are a kitty and you have 9 lives. MEOW! guess all the letters in the secret word correctly or you will DIE!");*/
+                    System.out.println("you are a kitty and you have 9 lives. MEOW! guess all the letters in the secret word correctly or you will DIE!");
                 }
                 else
                 {
                     System.out.println("see you next time. MEEEOOOWWWWWWW");
                     break;
-                }
+                }*/
             }
             else
             {
@@ -137,13 +137,13 @@ public class Kitty
                         {
                             revealed[i] = false;
                         }
-                        System.out.println("you are a kitty and you have 9 lives. MEOW! guess all the letters in the secret word correctly or you will DIE!");*/
+                        System.out.println("you are a kitty and you have 9 lives. MEOW! guess all the letters in the secret word correctly or you will DIE!");
                     }
                     else
                     {
                         System.out.println("see you next time. MEEEOOOWWWWWWW");
                         break;
-                    }
+                    }*/
                     
                 }
             
