@@ -13,7 +13,7 @@ public class Kitty
         //give the player 9 lives
         int lives = 9;
 
-        /*create a boolean array that is the length of the secret word. all values are set to false for now, 
+        /*create a boolean array. the number of values filled in in the array matches the number of letters the secret word has. all values are set to false for now, 
         but once the user guesses the letter correctly, the boolean value with the same index as the correctly guessed 
         letter in the secret word changes to true so we can keep track of the correctly guessed letters.*/
         boolean[] revealed = new boolean [30];
